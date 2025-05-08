@@ -1,0 +1,7 @@
+# Ignore Terraform provider binaries and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+# Ignore other large or temporary files
+*.log
+*.bak
